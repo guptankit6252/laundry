@@ -2,7 +2,7 @@ const express = require('express');
 const path=require('path');
 const pageRouter = require('./routes/pages');
 const app = express();
-
+//It is for body parser
 //for body parser
 app.use(express.urlencoded({ extended : false}));
 
